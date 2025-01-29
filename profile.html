@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+   <link rel="stylesheet" href="profile.css"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <div class="profile-card">
+        <img src="/images/pp2.jpg" alt="Profile Picture" data-testid="profilePicture" />
+
+    
+        <h1 class="name" data-testid="fullName">Umoh Deborah Patience</h1>
+        <p class="j-title" data-testid="jobTitle">Front-End Developer</p>
+        <hr>
+        
+        
+        <p class="s-bio" data-testid="shortBio">
+            A passion and curious driven front end developer with a focus on building a visually and
+            responsive webapplications. <br>
+            I’m skilled in HTML, CSS, JavaScript, and React, and I’m eager to expand my knowledge in frameworks like
+            Next.js. <br>
+            I’m currently working on honing my skills through the HNG internship, where I aim to gain real-world experience
+            and contribute to impactful projects.</p>
+
+            <hr>
+        <p class="city" data-testid="currentLocation"><span>Location: </span>Ilorin, Nigeria</p>
+        <a class="email" href="mailto:umohdeborah5@gmail.com" data-testid="emailAddress"><span class="text-email">Email:</span> umohdeborah5@gmail.com</a>
+        <div class="socials" data-testid="socialLinks"> <span>Connect: </span>
+            <a href="https://www.linkedin.com/in/umoh-deborah-59983124b/">LinkedIn</a>
+            <a href="https://github.com/Debbie-dot5">GitHub</a>
+            <a href="https://x.com/Debbie35d">X</a>
+        </div>
+
+        
+        <p class="time" data-testid="currentTimeUTC"><span id="utcTime"></span></p>
+    </div>
+
+    
+    <script src="profile.js"></script>
+</body>
+</html>
